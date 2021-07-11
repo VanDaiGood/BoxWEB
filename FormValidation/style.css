@@ -1,0 +1,91 @@
+.allbody {
+    height: 960px;
+    margin: 0px auto;
+    background-color: rgba(207, 191, 191, 0.8);
+}
+
+.signIn {
+    width: 500px;
+    margin: 0px auto;
+    background-image: url(https://64.media.tumblr.com/1b68b8042e36808a9575675f2b40ee78/c18c9f050df55449-05/s1280x1920/f7336d15675f89aad0d17cc9d4a7f4c67fbcf830.jpg);
+    position: relative;
+    top: 50px;
+    font-size: large;
+    border-style: outset;
+}
+
+#Intro {
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+
+#messIntro {
+    text-align: center;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.infor {
+    width: 420px;
+    height: 30px;
+    font-family: cursive;
+    border-radius: 15px;
+}
+
+#sub {
+    width: 420px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgb(131, 247, 131);
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    font-family: cursive;
+}
+
+label {
+    font-family: cursive;
+}
+
+.form-group {
+    width: 420px;
+    margin:10px auto;
+    font-family: cursive;
+}
+
+.allbody {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v788-mynt-31_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=cef78906a1df77994d8f46e848d0ecd2);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.InvalidBorderWrong {
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.InvalidMessage {
+    color: red;
+    font-family: cursive;
+}
+
+.infor:focus {
+    outline-width: 0;
+}
+
+.InvalidBorderRight {
+    border-radius: 15px;
+    border-color: rgb(52, 219, 125);
+}
+
+.form-radio {
+    margin-left: 10px;
+}
+
+.gender {
+    font-size: 15px;
+}

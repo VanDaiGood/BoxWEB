@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="allbody">
+        <form action="" method="POST" class="form" id="form-1">
+            <div class="signIn">
+                <h2 id='Intro'>Thành viên đăng ký</h2>
+                <h3 id='messIntro'>Cùng nhau học lập trình miễn phí tại TLOM<span style='font-size:50px;'>&#9749;</span>
+                </h3>
+
+                <div class="form-group">
+                    <label for="Name">Tên đầy đủ :</label><br>
+                    <input class="infor" name="fullName" type="text" placeholder="VD: Phan Văn Đại" id="Name">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="nickName">Tên đăng nhập :</label><br>
+                    <input class="infor" name="nickName" type="text" placeholder="VD: phanvandai123" id="nickName">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email : </label><br>
+                    <input class="infor" name="email" type="email" placeholder="VD: vandaihk17@gmail.com" id="Email">
+                    <span class="form_message"></span><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="Password">Mật khẩu :</label><br>
+                    <input class="infor" name="password" type="text" placeholder="Nhập mật khẩu" id="Password">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="repeat">Nhập lại mật khẩu :</label><br>
+                    <input class="infor" name="passwordConfirm" type="password" placeholder="Nhập lại mật khẩu"
+                        id="repeat">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label>Giới tính : </label>
+                    <input style="width: 15px;" type="radio" class="infor" value="Male" id="male" name="sexually"><label
+                        for='male'>Nam</label>
+                    <input style="width: 15px;" type="radio" class="infor" value="female" id="female"
+                        name="sexually"><label for="female">Nữ</label>
+                    <input style="width: 15px;" type="radio" class="infor" value="other" id="other"
+                        name="sexually"><label for="other">Khác</label><br>
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="province">Tỉnh/Thành phố :</label><br>
+                    <select class="infor" name="province" id="province">
+                        <option value="">-- Chọn Tỉnh/Thành phố --</option>
+                        <option value="BinhPhuoc">Bình Phước</option>
+                        <option value="HaNoi">Hà Nội</option>
+                        <option value="HCM">Tp Hồ Chí Minh</option>
+                        <option value="AnGiang">An Giang</option>
+                        <option value="LongAn">Long An</option>
+                        <option value="HaiPhong">Hải Phòng</option>
+                        <option value="Hue">Huế</option>
+                        <option value="DaNang">Đà Nẵng</option>
+                        <option value="BinhDuong">Bình Dương</option>
+                        <option value="HaTinh">Hà Tĩnh</option>
+                        <option value="CaMau">Cà Mau</option>
+                        <option value="Kiên Giang">Kiên Giang</option>
+                        <option value="HauGiang">Hậu Giang</option>
+                        <option value="TienGiang">Tiền Giang</option>
+                        <option value="BacLieu">Bạc Liêu</option>
+                        <option value="QuangNam">Quảng Nam</option>
+                        <option value="QuangTri">Quảng TRị</option>
+                        <option value="QuangBinh">Quảng Bình</option>
+                        <option value="PhuYen">Phú Yên</option>
+                        <option value="Ninh Thuan">Ninh Thuận</option>
+                        <option value="NgheAn">Nghệ An</option>
+                        <option value="HaiDuong">Hải Dương</option>
+                        <option value="QuangNinh">Quảng Ninh</option>
+                        <option value="NinhBinh">Ninh Bình</option>
+                        <option value="DienBien">Điện Biên</option>
+                        <option value="CaoBang">Cao Bằng</option>
+                        <option value="HaGiang">Hà Giang</option>
+                        <option value="TayNinh">Tây Ninh</option>
+                        <option value="BaRiaVungTau">Bà Rịa-Vũng Tàu</option>
+                        <option value="DongNai">Đồng Nai</option>
+                        <option value="Hue">Huế</option>
+                        <option value="LamDong">Lâm Đồng</option>
+                        <option value="SocTrang">Sóc Trăng</option>
+                        <option value="BenTre">Bến Tre</option>
+                        <option value="Quảng Ngãi">Quảng Ngãi</option>
+                        <option value="KonTum">Kon Tum</option>
+                        <option value="DakLak">Đắk Lắk</option>
+                        <option value="DakNong">Đắk Nông</option>
+                        <option value="BinhDinh">Bình Định</option>
+                        <option value="TraVinh">Trà Vinh</option>
+                        <option value="HoaBinh">Hòa Bình</option>
+                        <option value="KhanhHoa">Khánh Hòa</option>
+                        <option value="HaNam">Hà Nam</option>
+                        <option value="PhuTho">Phú Thọ</option>
+                    </select>
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <button id='sub'>Đăng ký</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./validator.js"> </script>
+    <script>
+        var input=document.querySelector('#male');
+        console.log(input.type);
+        Validator({
+            gender: 'gender',
+            form: '#form-1',
+            // class span: in ra message loi
+            errorSelector: '.form_message',
+            formGroup: '.form-group',
+            //mong muon cua chung ta
+            rules: [
+                Validator.isRequired('#Name', 'Bạn cần điền đầy đủ họ tên.'),
+                Validator.isRequired('#nickName', 'Bạn chưa điền tên đăng nhập.'),
+                Validator.isRequired('#Email', 'Bạn chưa điền Email.'),
+                Validator.isEmail('#Email'),
+                Validator.isRequired('#Password', 'Bạn chưa nhập mật khẩu.'),
+                Validator.minLength('#Password', 6),
+                Validator.isRequired('#repeat', 'Bạn cần xác nhận lại mật khẩu.'),
+                Validator.isRequired('input[name="sexually"]', 'Vui lòng chọn giới tính.'),
+                Validator.isRequired('#province', 'Vui lòng chọn tỉnh/thành phố'),
+                Validator.isConfirmed('#repeat', function () {
+                    return document.querySelector('#Password').value;
+                })
+            ],
+            onSubmit: function (data) {      //key tra ve thong tin nhap vao o console
+                console.log(data);
+            }
+        });
+    </script>
+</body>
+
+</html>

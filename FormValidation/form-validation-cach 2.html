@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thành viên</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="allbody">
+        <form action="" method="POST" class="form" id="form-1">
+            <div class="signIn">
+                <h2 id='Intro'>Thành viên đăng ký</h2>
+                <h3 id='messIntro'>Cùng nhau học lập trình miễn phí tại TLOM<span style='font-size:50px;'>&#9749;</span>
+                </h3>
+
+                <div class="form-group">
+                    <label for="Name">Tên đầy đủ :</label><br>
+                    <input class="infor" rules='required' name="fullName" type="text" placeholder="VD: Phan Văn Đại"
+                        id="Name">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="nickName">Tên đăng nhập :</label><br>
+                    <input class="infor" rules='required' name="nickName" type="text" placeholder="VD: phanvandai123"
+                        id="nickName">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email : </label><br>
+                    <input class="infor" rules='required|email' name="email" type="email"
+                        placeholder="VD: vandaihk17@gmail.com" id="Email">
+                    <span class="form_message"></span><br>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="Password">Mật khẩu :</label><br>
+                    <input class="infor" rules='required|min:6' name="password" type="text" placeholder="Nhập mật khẩu"
+                        id="Password">
+                    <span class="form_message"></span><br>
+                </div>
+
+                <div class="form-group">
+                    <button id='sub'>Đăng Nhập</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./validator2.js"> </script>
+    <script>
+        var form = new Validation('#form-1')
+        form.onSubmit = function (data) {  // tao 1 thuoc tinh moi cho new construction: onSubmit
+            console.log(data);
+        };
+    </script>
+</body>
+
+</html>
