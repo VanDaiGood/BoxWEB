@@ -1,0 +1,41 @@
+.main{
+  font-size: medium;
+  font-family: cursive;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://cdn.tgdd.vn//GameApp/-1//maytinh-15-800x450-7.jpg);
+}
+body {
+ background-color: pink;
+}
+.video{
+  width: 480px;
+  height: 360px;
+  background-color: rgb(167, 58, 161);
+}
+
+.control{
+  margin-top: 20px;
+}
+
+.btn1{
+  padding: 4px 16px;
+  font-size: 1.4rem;
+  margin: 0 8px;
+}
+.btn2{
+  padding: 4px 16px;
+  font-size: 1.4rem;
+  margin: 0 8px;
+}
+.btn{
+  padding: 4px 16px;
+  font-size: 1.4rem;
+  margin: 0 8px;
+}
+.main.touched {
+  background-color: red;
+}
